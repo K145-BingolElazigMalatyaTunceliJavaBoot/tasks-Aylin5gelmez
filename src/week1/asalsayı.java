@@ -10,6 +10,7 @@ public class asalsayı {
                     if (i % j == 0) {
                         asalSayiKontrol = false;
                         break;
+
                     }
                 }
                 if (asalSayiKontrol) {
