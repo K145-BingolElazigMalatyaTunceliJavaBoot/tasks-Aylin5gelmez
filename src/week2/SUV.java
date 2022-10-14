@@ -21,7 +21,7 @@ public class SUV extends Car {
     }
 
     public void SUVDailyRental() {
-        System.out.println("Günlük Kiralama Yaptınız");
+        System.out.println("Günlük kiralama yaptınız");
 
     }
 }
