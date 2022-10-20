@@ -17,10 +17,11 @@ public class main {
             System.out.print(seatsThy.get(i) + " - ");
         }
 
-        System.out.println("********************************************************************************************");
+        System.out.println("*******************************************************************************************");
 
         Pegasus pegasus = new Pegasus();
         List<String> seatspegasus = pegasus.getSeats();
+         System.out.println();
 
         for (int i = 0; i < seatspegasus.size(); i++) {
             if (i % 8 == 0) {
